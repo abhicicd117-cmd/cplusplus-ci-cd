@@ -1,8 +1,7 @@
 #include <iostream>
+#include "multiplication.hpp"
 int main() {
-    int a =4;
-    int b=5;
-    int prod=a*b;
-    std::cout << prod << std::endl;
+    
+    std::cout << mul(3,5) << std::endl;
     return 0;
 }
