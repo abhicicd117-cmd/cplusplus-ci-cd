@@ -1,5 +1,8 @@
 #include <iostream>
 int main() {
-    std::cout << "Hello CI/CD you have achieved best of luck abhishek" << std::endl;
+    int a =4;
+    int b=5;
+    int prod=a*b;
+    std::cout << prod << std::endl;
     return 0;
 }
